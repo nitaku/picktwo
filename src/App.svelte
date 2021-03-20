@@ -3,7 +3,7 @@
 </script>
 
 <svg class="main" viewBox="-800 0 1600 900">
-  <Hand cards={[1,2,3,4,5]} transform="translate(0,800)"/>
+  <Hand cards={[1,2,3,4,5]} transform="translate(0,740)"/>
 </svg>
 
 <style>

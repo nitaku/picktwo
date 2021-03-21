@@ -25,6 +25,7 @@
     "@tsconfig/svelte": "^1.0.0"
   },
   "dependencies": {
+    "cartocolor": "^4.0.2",
     "sirv-cli": "^1.0.0"
   }
 }

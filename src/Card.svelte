@@ -1,13 +1,17 @@
 <script lang="ts" context="module">
-  export const width = 200
+  export const width = 220
   export const height = 300
 </script>
 
 <script lang="ts">
+  import * as cartocolor from 'cartocolor'
+
   export let title = 'Title'
   export let category = 'Category'
   export let text = 'Text'
   export let type = 'Check'
+  export let color = 3
+
 	export let transform : string
 </script>
 
@@ -19,9 +23,10 @@
     y={-height/2}
     rx="20"
     ry="20"
-    fill="whitesmoke"
-    stroke="black"
-    stroke-width="10"
+    fill={cartocolor.Bold[7][color]}
+    fill-opacity="0.4"
+    stroke={cartocolor.Bold[7][color]}
+    stroke-width="6"
   />
   <text class="title" y={-height/2} dy="1.5em">{title}</text>
   <text class="category" dy=".35em">{category}</text>
